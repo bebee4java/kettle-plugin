@@ -50,11 +50,11 @@ import java.util.Map;
  *
  */
 
-@Step( id = "DummyStep",
+@Step( id = "ObfusStep",
       image = "DPL.svg",
-      i18nPackageName="be.ibridge.kettle.dummy",
-      name="DummyPlugin.Step.Name",
-      description = "DummyPlugin.Step.Description",
+      i18nPackageName="be.ibridge.kettle.dbfus",
+      name="ObfusPlugin.Step.Name",
+      description = "ObfusPlugin.Step.Description",
       categoryDescription="Deprecated" )
 public class ObfusPluginMeta extends BaseStepMeta implements StepMetaInterface
 {

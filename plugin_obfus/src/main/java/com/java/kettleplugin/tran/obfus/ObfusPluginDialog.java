@@ -81,14 +81,14 @@ public class ObfusPluginDialog extends BaseStepDialog implements StepDialogInter
 		formLayout.marginHeight = Const.FORM_MARGIN;
 
 		shell.setLayout(formLayout);
-		shell.setText(Messages.getString("DummyPluginDialog.Shell.Title")); //$NON-NLS-1$
+		shell.setText(Messages.getString("ObfusPluginDialog.Shell.Title")); //$NON-NLS-1$
 		
 		int middle = props.getMiddlePct();
 		int margin = Const.MARGIN;
 
 		// Stepname line
 		wlStepname=new Label(shell, SWT.RIGHT);
-		wlStepname.setText(Messages.getString("DummyPluginDialog.StepName.Label")); //$NON-NLS-1$
+		wlStepname.setText(Messages.getString("ObfusPluginDialog.StepName.Label")); //$NON-NLS-1$
         props.setLook( wlStepname );
 		fdlStepname=new FormData();
 		fdlStepname.left = new FormAttachment(0, 0);
@@ -107,7 +107,7 @@ public class ObfusPluginDialog extends BaseStepDialog implements StepDialogInter
 		
 		// ValName line
 		wlValName=new Label(shell, SWT.RIGHT);
-		wlValName.setText(Messages.getString("DummyPluginDialog.ValueName.Label")); //$NON-NLS-1$
+		wlValName.setText(Messages.getString("ObfusPluginDialog.ValueName.Label")); //$NON-NLS-1$
         props.setLook( wlValName );
 		fdlValName=new FormData();
 		fdlValName.left = new FormAttachment(0, 0);
@@ -125,7 +125,7 @@ public class ObfusPluginDialog extends BaseStepDialog implements StepDialogInter
 
 		// Value line
 		wlValue=new Label(shell, SWT.RIGHT);
-		wlValue.setText(Messages.getString("DummyPluginDialog.ValueToAdd.Label")); //$NON-NLS-1$
+		wlValue.setText(Messages.getString("ObfusPluginDialog.ValueToAdd.Label")); //$NON-NLS-1$
         props.setLook( wlValue );
 		fdlValue=new FormData();
 		fdlValue.left = new FormAttachment(0, 0);
