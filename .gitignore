@@ -6,3 +6,8 @@
 out
 gen
 target/
+bin
+dev-lib
+dist
+lib
+test-lib
