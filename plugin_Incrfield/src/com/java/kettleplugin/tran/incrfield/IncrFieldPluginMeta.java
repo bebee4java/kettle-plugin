@@ -134,7 +134,7 @@ public class IncrFieldPluginMeta extends BaseStepMeta implements StepMetaInterfa
 
 	public void setDefault()
 	{
-		value = new ValueMetaAndData( new ValueMeta("field name", ValueMetaInterface.TYPE_NUMBER), new String("field value") );
+		value = new ValueMetaAndData( new ValueMeta("field name", ValueMetaInterface.TYPE_STRING), new String("field value") );
 		value.getValueMeta().setLength(12);
         value.getValueMeta().setPrecision(4);
 	}
