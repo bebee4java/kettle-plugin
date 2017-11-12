@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ivysettings>
+  <property name ="ivy.default.ivy.user.dir" value ="E:/.ivy2" />
   <properties environment="env" />
   <property name="maven.local.repo" value="E:/.m2/repository" override="false" />
   <property name="ivy.local.default.root" value="${ivy.default.ivy.user.dir}/local" override="true" />
